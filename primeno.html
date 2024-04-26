@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <title>Prime number</title> 
+        <style>
+
+        </style>
+        <script>
+              let count=0;
+              var num=parseInt(prompt("Enter the number"));
+              for(let i=2; i < num; i++){
+                if(num % i === 0){
+                    
+                    console.log("This is a even number");
+                    count++;
+                }
+              }
+              if(count > 0){
+                console.log(num +"-------This is not a Prime number");
+              }
+              else{
+                console.log(num+ "--------This is a Prime Number");
+              }
+              
+
+        </script>
+    </head>
+    <body>
+       
+    </body>
+</html>
